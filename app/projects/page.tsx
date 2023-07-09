@@ -49,7 +49,7 @@ export default async function ProjectsPage() {
 						Projects
 					</h2>
 					<p className="mt-4 text-zinc-400">
-					Many thanks for the opportunity
+					Many Thanks!. for the opportunity.
 					</p>
 				</div>
 				<div className="w-full h-px bg-zinc-800" />
