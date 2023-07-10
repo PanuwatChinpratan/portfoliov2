@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 		title: "MILO",
 		description:
 			"PORTFOLIO",
-		url: "https://chronark.com",
+		url: "https://portfoliov2-milo-socool.vercel.app",
 		siteName: "MILO",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://portfoliov2-milo-socool.vercel.app/og.png",
 				width: 1920,
 				height: 1080,
 			},
