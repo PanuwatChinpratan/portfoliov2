@@ -7,8 +7,43 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
 	title: {
 		default: "MILO",
-		template: "",
-	}
+		template: "%s | SO COOL",
+	},
+	description: "PORTFOLIO",
+	openGraph: {
+		title: "MILO",
+		description:
+			"PORTFOLIO",
+		url: "https://chronark.com",
+		siteName: "MILO",
+		images: [
+			{
+				url: "https://chronark.com/og.png",
+				width: 1920,
+				height: 1080,
+			},
+		],
+		locale: "en-US",
+		type: "website",
+	},
+	robots: {
+		index: true,
+		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			"max-video-preview": -1,
+			"max-image-preview": "large",
+			"max-snippet": -1,
+		},
+	},
+	twitter: {
+		title: "MILO",
+		card: "summary_large_image",
+	},
+	icons: {
+		shortcut: "/favicon.png",
+	},
 };
 const inter = Inter({
 	subsets: ["latin"],
